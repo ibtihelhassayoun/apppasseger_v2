@@ -73,7 +73,9 @@ class SettingsScreen extends StatelessWidget {
                     context: context,
                     builder: (context) => AlertDialog(
                       title: Text(l.helpTitle),
-                      content: const Text('Contactez-nous à support@smarttransit.com pour obtenir de l\'aide.'),
+                      content: const Text(
+                        'Contactez-nous à support@smarttransit.com pour obtenir de l\'aide.',
+                      ),
                       actions: [
                         TextButton(
                           onPressed: () => Navigator.pop(context),
